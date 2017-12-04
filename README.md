@@ -9,7 +9,7 @@ Assuming you have Docker and Docker Compose installed already, the following ste
 ### Building
 
  1. Clone this repository somewhere.
- 2. Copy `credentials.txt.example` to `credentials.txt` and edit it, replacing the example with your own Steam credentials.
+ 2. ~~Copy `credentials.txt.example` to `credentials.txt` and edit it, replacing the example with your own Steam credentials.~~ anonymous is safer.
  3. Build the image with `docker-compose build` (or use straight `docker build`, it's up to you). **Do not push the image to a public registry**, unless you really want to give away your Steam account.
 
 ### Configuring
@@ -30,5 +30,6 @@ Note that the version numbers (and therefore releases) indicate which version of
 
 ## Changelog
 
+ * **0.0.3** Updated credentials to use anonymous user
  * **0.0.2** Using updated zobees/steamcmd-ubuntu image
  * **0.0.1** Initial release
