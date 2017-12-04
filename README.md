@@ -9,7 +9,7 @@ Assuming you have Docker and Docker Compose installed already, the following ste
 ### Building
 
  1. Clone this repository somewhere.
- 2. ~~Copy `credentials.txt.example` to `credentials.txt` and edit it, replacing the example with your own Steam credentials.~~ anonymous is safer.
+ 2. ~~Copy `credentials.txt.example` to `credentials.txt` and edit it, replacing the example with your own Steam credentials.~~ Not needed anonymous user is now supported by steam.
  3. Build the image with `docker-compose build` (or use straight `docker build`, it's up to you). **Do not push the image to a public registry**, unless you really want to give away your Steam account.
 
 ### Configuring
